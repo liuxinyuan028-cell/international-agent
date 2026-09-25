@@ -1,0 +1,14 @@
+---
+description: 国际传播 / 讲好中国故事项目约定
+globs:
+alwaysApply: true
+---
+
+# 国际传播项目约定
+
+- 使命：讲好中国故事；只出人工审核草稿，不自动发帖。
+- 中国故事主技能：`skills/entry/china-storytelling.md`（主动路由 `skills/entry/china-story-active.md`；团队基线 `skills/shared/intl-comm.md`）。
+- 流程：识别体裁（`genre_router` / genres）→ 调用 `load_story_knowledge` → 读 storytelling_framework / writing_methodology → 按**当前体裁 skill** + `content_formats.md` 成稿（默认英文海外向；样例见 `format_examples.md`）。
+- 体裁分册：`skills/genres/` 下按 post / news / feature / script / faq 分子目录。
+- 有用户资料时遵守 `skills/shared/evidence-user-materials.md`。
+- 真实性优先；禁止虚构、空赞美、无依据拔高、体裁串味；Skill 不更新知识库。

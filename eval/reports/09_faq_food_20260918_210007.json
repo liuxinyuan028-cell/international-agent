@@ -1,0 +1,52 @@
+{
+  "id": "09_faq_food",
+  "theme": "中国食物常见误解澄清",
+  "genre_expected": "faq",
+  "genre_routed": "faq",
+  "format": "faq_mythbust",
+  "prompt": "按 china_storytelling，format=faq_mythbust，英文。只依据用户素材列 Myth+Fact；不要抄外网统计数字；不要攻击目标国受众。",
+  "material": "常见误解一：中国人每天都吃狗肉。可核验表述：狗肉并非日常主食，多数家庭日常是米饭、面、蔬菜和常见肉类。常见误解二：中国菜只有很辣很油。可核验表述：各地口味差异大，清淡蒸煮同样常见。常见误解三：用筷子等于不卫生。可核验表述：公筷分餐在不少场合已推广；家庭也可做到餐具清洁。不要编造全国消费百分比。",
+  "draft": "**knowledge_loaded: true**\n**format:** faq_mythbust (Tier-2)\n**genre:** faq · genre_status: methods_in\n\n---\n\n## title\n**China Food Myths Travelers Still Repeat**\n\n## audience\nEnglish-speaking readers encountering Chinese cuisine for the first time — travel forums, food blogs, casual conversation.\n\n## intro\nA few food claims travel faster than menus. Below are three common myths and what the materials actually support — no invented statistics, no culture-war framing.\n\n## items\n\n```json\n[\n  {\n    \"myth\": \"Chinese people eat dog meat every day.\",\n    \"fact\": \"Dog meat is not a daily staple. Most families eat rice, noodles, vegetables, and common meats such as pork, chicken, and fish as everyday meals.\",\n    \"verdict\": \"false\",\n    \"bridge\": \"Daily Chinese meals look much closer to a home-cooked rice-and-vegetable table than the headline suggests.\",\n    \"not_claiming\": \"This does not deny that dog meat has been consumed in certain regions at certain times; it is not everyday food for most households.\",\n    \"evidence_refs\": [\"user_materials#myth-dog-meat\"]\n  },\n  {\n    \"myth\": \"Chinese food is all very spicy and oily.\",\n    \"fact\": \"Flavors vary widely across regions. Light, clean cooking — steaming, boiling, blanching — is equally common in many parts of the country.\",\n    \"verdict\": \"overstated\",\n    \"bridge\": \"If you've only tried one regional style, you've only tasted one chapter of the menu.\",\n    \"not_claiming\": \"This does not deny that Sichuan, Hunan, and other regional cuisines can be intensely spicy and richly oiled.\",\n    \"evidence_refs\": [\"user_materials#myth-spicy-oily\"]\n  },\n  {\n    \"myth\": \"Using chopsticks means the food is unhygienic.\",\n    \"fact\": \"Serving chopsticks and individual portions have been promoted in many dining settings; families also keep utensils clean through standard hygiene practices.\",\n    \"verdict\": \"false\",\n    \"bridge\": \"Hygiene is about practice, not the utensil — and shared-table norms in China have been shifting.\",\n    \"not_claiming\": \"This does not claim every table everywhere follows the same standard; it notes the direction of practice.\",\n    \"evidence_refs\": [\"user_materials#myth-chopsticks-hygiene\"]\n  }\n]\n```\n\n## closing\nThe shareable point is the range on the table — everyday rice and vegetables, regional flavor differences, and evolving dining habits — not a debate win.\n\n---\n\n**evidence_used:**\n- All three myth/fact pairs sourced exclusively from **user_materials** (user-uploaded content this session).\n- No local evidence library (`retrieve_evidence`) was called — topic did not match available categories (governance, forced labor, etc.).\n- No external statistics, percentages, or survey numbers were introduced.\n\n**modules_used:** A (现状起点 — intro framing) + B (行动展示 — what is actually practiced) + C (意义连接 — closing to shareable point)\n\n**Checklist self-check:**\n- ✅ No invented percentages, names, or statistics\n- ✅ No attack on target-country audiences\n- ✅ All verifiable claims traceable to user materials\n- ✅ Soft-fiction ban observed (no fabricated details)\n\n⚠️ **Please review manually before publishing.** This is a draft for editorial check, not auto-posted content.",
+  "tools": [
+    "load_story_knowledge"
+  ],
+  "error": null,
+  "unified": {
+    "S1_coverage": 1,
+    "S2_boundary": 5,
+    "S3_hard_prompt": 5,
+    "S4_trace": 5,
+    "S5_genre_fit": 5,
+    "S6_ablation": null,
+    "shared_sum": 21,
+    "shared_max": 25,
+    "shared_pass": false,
+    "plugin": {
+      "note": "feature/script/faq 插件位预留，本题仅报共享层"
+    },
+    "plugin_sum": 0,
+    "plugin_pass": true,
+    "anchor_hits": [],
+    "total45": 21,
+    "pass": false
+  },
+  "content_quality": {
+    "dims": {
+      "accuracy": 5,
+      "examples": 1,
+      "logic": 5,
+      "localize": 5,
+      "interest": 3,
+      "engage": 3,
+      "natural": 4,
+      "authority": 4,
+      "evidence_support": 5,
+      "polite": 5
+    },
+    "score100": 81.4,
+    "pass": true,
+    "gate_fail": false
+  },
+  "optimize": "提高用户专有锚点写入密度，evidence_used 逐条引用素材原句。；确保每条 myth+fact 对立成立，禁止外网统计进 evidence。",
+  "verdict": "FAIL"
+}

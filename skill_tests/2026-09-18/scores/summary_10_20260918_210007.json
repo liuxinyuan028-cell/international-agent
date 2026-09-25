@@ -1,0 +1,574 @@
+[
+  {
+    "id": "01_post_grape",
+    "theme": "宁夏葡萄园滴灌与嫁接笔记",
+    "genre_expected": "post",
+    "genre_routed": "post",
+    "format": "social_post",
+    "prompt": "按 china_storytelling，format=social_post，platform=instagram，country=America，语气 optimistic，英文。必须使用下方用户上传素材，不要补充素材没有的产量、人名和融资额。",
+    "material": "宁夏某葡萄产区曾是砾石荒地；合作社使用滴灌；一位种植户保留了失败嫁接记录本；参观者可摸到滴灌管外壁的冷凝水。",
+    "draft": "**knowledge_loaded: true**\n**format:** social_post (Tier-1)\n**platform:** instagram\n**country:** America\n**tone:** optimistic\n**结构适配判断:** 高度适配 A+B+C + D(蜕变) + E(个体)\n**一句话核心句（内部）:** 砾石荒地上，滴灌管线的冷凝水和一本写满失败的本子，记录着葡萄园如何从无到有。\n\n---\n\n**post:**\n\n> Touch the outside of a drip-irrigation pipe in this Ningxia vineyard — your fingers come away wet. Condensation. That small detail tells a bigger story.\n>\n> This land was once gravel wasteland. Nothing grew. Today, a local cooperative runs drip lines through the rows, and one grower keeps a notebook full of failed grafts — every attempt, every lesson, written down.\n>\n> No one started with answers. They started with soil, water, and willingness to fail on paper.\n>\n> Swipe to see what patience looks like in a vineyard. 🍇\n\n**hashtags:** [\"ChinaStories\", \"Ningxia\", \"VineyardLife\", \"DryLandFarming\", \"GrowFromFailure\"]\n\n---\n\n**evidence_used:**\n| 来源 | 内容 |\n|------|------|\n| 用户素材 | 宁夏某葡萄产区曾是砾石荒地 |\n| 用户素材 | 合作社使用滴灌 |\n| 用户素材 | 一位种植户保留了失败嫁接记录本 |\n| 用户素材 | 参观者可摸到滴灌管外壁的冷凝水 |\n\n**knowledge_loaded:** true\n**modules_used:** A(起点：砾石荒地) + B(行动：滴灌/记录本) + C(延伸：耐心与试错) + D(蜕变：荒地→葡萄园) + E(个体：种植户的本子)\n\n⚠️ **仅供人工审核草稿，不自动发布。** 未编造产量、人名、融资额；所有可核验细节均来自用户素材。",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 3,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 23,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "P1_5W": 2,
+        "P2_audience": 5,
+        "P3_channel": 5
+      },
+      "plugin_sum": 12,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "砾石荒地",
+        "滴灌",
+        "失败嫁接记录本",
+        "冷凝水"
+      ],
+      "total45": 35,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 3,
+        "polite": 5
+      },
+      "score100": 93.0,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "补全 evidence_used，并标注 source_type=用户上传/本地库。；帖文补齐非空壳 five_w，Says What 只留一个故事点。",
+    "verdict": "PASS"
+  },
+  {
+    "id": "02_post_lacquer",
+    "theme": "福建漆器修复师与学徒补色",
+    "genre_expected": "post",
+    "genre_routed": "post",
+    "format": "thread",
+    "prompt": "按 china_storytelling，format=thread，platform=twitter，英文。用用户素材讲完一个小故事；不要虚构荣誉称号和游客人次。",
+    "material": "福建一位漆器修复师用三年修好一件破损屏风；学徒先练半年补色；博物馆保留了修复前后对比照片；屏风缺角曾用木屑临时填过。",
+    "draft": "**knowledge_loaded: true**\n**format:** thread (Tier-1)\n**platform:** twitter / X\n**genre:** post · china_storytelling\n**结构适配判断:** 高度适配 A(器物引入) + B(修复行动) + C(技艺传承意义) + D(蜕变：修复前后) + E(个体：修复师与学徒)\n**一句话核心句（内部）:** 一件缺角曾塞着木屑的屏风，三年修复、半年练色——技艺的传递不在标题里，在重复里。\n\n---\n\n## tweets[]\n\n**1/**\nA damaged screen. A missing corner once stuffed with wood chips as a quick fix.\nIn Fujian, a lacquerware restorer spent three years bringing it back — not replacing it, but repairing it.\n\n**2/**\nThree years on one object.\nLayer of lacquer, dry, smooth, repeat. No shortcut, no rush to unveil. The screen waited because the craft demanded it.\n\n**3/**\nBefore the apprentice ever touched the screen, they spent half a year on one thing only: matching color.\nNot patterns. Not shapes. Just color — learning to see what was already there.\n\n**4/**\nA museum kept the before-and-after photos.\nThe \"before\": a corner held together by wood chips.\nThe \"after\": the same corner, whole again — lacquer layered back into what was lost.\n\n**5/**\nThe wood chips were a temporary fix. The real fix took someone willing to spend years on a single broken thing — and a younger someone willing to start with color.\n\n**6/**\nThis is what craft transmission looks like: not a headline, not a trophy case. A master, an apprentice, and a screen that waited three years to be whole.\n\n**7/**\nHave you ever watched someone restore something broken — not replace it, but actually bring it back? What did patience look like in their hands?\n\n---\n\n**cta:** Reply with a moment you watched someone bring something broken back to life.\n\n**hashtags:** #Lacquerware #CraftRestoration #Fujian #IntangibleHeritage #ChinaStory\n\n---\n\n### 元信息\n\n| 字段 | 值 |\n|------|-----|\n| knowledge_loaded | true |\n| evidence_used | **用户上传素材**：①福建漆器修复师三年修好一件破损屏风；②学徒先练半年补色；③博物馆保留修复前后对比照片；④屏风缺角曾用木屑临时填过 |\n| evidence_used（本地库） | 无（本次主题未调用 retrieve_evidence，素材已充足） |\n| soft_fiction_ban 自检 | ✅ 未补姓名/性别/馆名/精确日期/百分比/荣誉称号/游客人次 |\n| 素材回溯 | 每条事实均可指回用户素材四句 |\n\n> ⚠️ 以上为人工审核草稿，未自动发布。建议核实：博物馆名称是否可公开、修复师/学徒是否同意具名后再定稿。",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "P1_5W": 2,
+        "P2_audience": 5,
+        "P3_channel": 5
+      },
+      "plugin_sum": 12,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "三年",
+        "破损屏风",
+        "半年补色",
+        "对比照片",
+        "木屑"
+      ],
+      "total45": 37,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 4,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 95.2,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "帖文补齐非空壳 five_w，Says What 只留一个故事点。",
+    "verdict": "PASS"
+  },
+  {
+    "id": "03_news_wetland",
+    "theme": "青海湿地巡护与红外相机",
+    "genre_expected": "news",
+    "genre_routed": "news",
+    "format": "news_article",
+    "prompt": "按 china_storytelling，format=news_article，英文消息稿。只用用户素材；不要编造精确鸟种数量和保护区面积。",
+    "material": "青海某湿地巡护员每周步行记录候鸟；保护区安装红外相机；去年同站点水鸟种类用户只描述为「十余种」；巡护日志用铅笔写在防水本上。",
+    "draft": "**knowledge_loaded: true**\n**format:** news_article (Tier-1)\n**genre:** news | **genre_status:** complete\n**结构适配判断:** 生态主题 → 必选 A+B+C；素材偏个体日常，优先激活 E(个体)；无蜕变/数据素材，不强行用 D/F。\n\n---\n\n**headline:** In Qinghai, a wetland watcher counts birds step by step\n**dek:** Weekly patrols, pencil-on-waterproof-paper logs, and newly installed infrared cameras — a quiet routine is tracking migratory life on the plateau.\n\n**中文对照：**\n标题：青海，一位湿地巡护员用脚步数鸟\n导语：每周巡护、铅笔写在防水本上的记录、新安装的红外相机——高原上，一套安静的日常正在追踪候鸟的踪迹。\n\n---\n\n**body:**\n\nEvery week, a patrol ranger walks the wetlands of a nature reserve in Qinghai, counting the migratory birds that pass through. There is no motorized vehicle for the job — the route is covered on foot, so that nothing in the marsh goes unnoticed.\n\nThe only \"official record\" of each patrol is a waterproof notebook. Entries are written in pencil, because ink can fail in the plateau's damp cold. Page after page, the log tracks which birds were seen, where, and in what numbers — a slow, hand-written database of a living ecosystem.\n\nThe reserve has also begun installing infrared cameras at key observation points. The cameras work around the clock, capturing wildlife that might otherwise go unrecorded — especially species that are active at dawn, dusk, or night, when human patrols are not on the trail.\n\nAt one fixed observation point, last year's surveys recorded more than a dozen species of waterbirds. The number is modest, but it is a baseline — one that the ranger's weekly walks and the new cameras will help build upon in seasons to come.\n\nThere is no grand announcement here. Just a person walking, a pencil writing, and a lens watching — week after week, on a Qinghai wetland that keeps breathing.\n\n---\n\n**suggested_visual:** A waterproof notebook open on a wetland boardwalk, pencil resting on the page; background: marsh grass and distant water. Optional inset: an infrared camera mounted on a wooden post.\n（配图建议：防水本摊开在湿地栈道上，铅笔搁在页面；背景：沼泽草丛与远处水面。可选小图：木桩上安装的红外相机。）\n\n---\n\n**evidence_used:**\n| # | 来源 | 内容 |\n|---|------|------|\n| U1 | 用户上传 | 青海某湿地巡护员每周步行记录候鸟 |\n| U2 | 用户上传 | 保护区安装红外相机 |\n| U3 | 用户上传 | 去年同站点水鸟种类\"十余种\" |\n| U4 | 用户上传 | 巡护日志用铅笔写在防水本上 |\n\n（本地论据库未调用——用户素材已足够支撑短消息稿，无需额外检索。）\n\n**素材回溯自检：** 正文每句事实均可指回 U1–U4；未补充精确鸟种名、保护区面积、巡护员姓名、具体钟点、百分比或制度背景。\"more than a dozen\"对应素材\"十余种\"，未做精确化。\n\n⚠️ **本稿仅供人工审核，不自动发布。** 如需补充保护区正式名称、海拔、鸟种清单等可核验信息，请提供后更新。",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "N1_beats": 5,
+        "N2_lexicon": 4,
+        "N3_isolation": 5
+      },
+      "plugin_sum": 14,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "每周步行",
+        "红外相机",
+        "十余种",
+        "防水本"
+      ],
+      "total45": 39,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 3,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 88.8,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "本条达标；下一轮加无资料对照题测 S6，或加干扰指令测硬约束。",
+    "verdict": "PASS"
+  },
+  {
+    "id": "04_news_presskit",
+    "theme": "中非滴灌示范园出苗",
+    "genre_expected": "news",
+    "genre_routed": "news",
+    "format": "press_kit",
+    "prompt": "按 china_storytelling，format=press_kit。输出短消息、标题组、要点；材料不够的块写 omitted_reason。不要编造增产百分比和吨数。英文。",
+    "material": "中非某农业合作示范园教当地农户使用滴灌；中方农技员与当地翻译一起下田；第一季作物出苗更整齐；示范田边竖着中非双语说明牌。",
+    "draft": "**knowledge_loaded: true**\n**format:** press_kit (Tier-1)\n**结构适配判断:** 高度适配 A+B+C + E(个体)\n**一句话核心句（内部）:** 中非示范园里，滴灌管线让第一季作物出苗更整齐，双语说明牌立在田边。\n\n---\n\n## press_kit · China-Africa Drip Irrigation Demo Plot\n\n### headline_pack\n\n**headline_main:**  \nSeedlings Rise in Neater Rows: A China-Africa Demo Plot Tests Drip Irrigation\n\n**headline_alt_1:**  \nFrom Field to Fieldside Sign — Drip Irrigation Takes Root in a China-Africa Demo Plot\n\n**headline_alt_2:**  \nFirst Season, Neater Rows: Chinese Agronomists and Local Translators Work Side by Side\n\n---\n\n### news_blurb\n\nAt the edge of a demonstration field in a China-Africa agricultural cooperation park, a bilingual sign — in Chinese and a local African language — marks the plot where drip irrigation is being tried for the first time.\n\nChinese agronomists have been going into the field together with local translators, showing farmers how to lay drip lines and schedule watering. The setup is simple: pipes with small emitters run along the rows, delivering water directly to the roots.\n\nNow, the first season's seedlings have come up. Compared with earlier planting methods, the rows look noticeably more even — a sign, the team says, that the water is reaching the plants more consistently.\n\nThe work is hands-on. Agronomists and translators walk the rows together, checking emitters, adjusting flow, answering questions from farmers who are learning the system. The bilingual sign at the field's edge lists basic instructions — a small but practical step toward making the technology accessible beyond the demo plot.\n\nFor the farmers involved, the visible difference in seedling uniformity is the first tangible result. What comes next — whether the method saves water, improves yields, or can be adapted to other crops — will depend on the rest of this season and the ones after.\n\n---\n\n### key_facts\n\n- China-Africa agricultural cooperation demo park teaching local farmers drip irrigation\n- Chinese agronomists working in the field together with local translators\n- First season's seedlings emerged in neater, more uniform rows\n- Bilingual (Chinese + local African language) instruction sign placed at the edge of the demo field\n\n---\n\n### visual_captions\n\n1. Chinese agronomist and local translator walking through a drip-irrigated demo plot, checking emitters along the rows.\n2. Close-up of seedlings emerging in even rows from drip lines.\n3. Bilingual instruction sign (Chinese and local African language) standing at the edge of the demonstration field.\n\n---\n\n### social_post ×2\n\n**variant_1 (scene hook):**  \nNeater rows this season at a China-Africa demo plot — drip irrigation is being tried, with agronomists and local translators working side by side in the field. A bilingual sign marks the edge of the plot. 🌱 #ChinaAfrica #AgriCooperation\n\n**variant_2 (result hook):**  \nFirst seedlings are up at a China-Africa agricultural demo park — and the rows look more even than before. Drip lines, hands-on training, and a bilingual sign at the field's edge. Small steps, visible results. #DripIrrigation #SouthSouthCooperation\n\n---\n\n### faq\n\n**q:** Is this just a showcase plot?  \n**a:** The demo field has a bilingual instruction sign so farmers can reference the basics on their own — the aim is to make the method usable beyond the park.\n\n**q:** What crop is being grown?  \n**a:** The source materials do not specify the crop type — only that first-season seedlings emerged in neater rows under drip irrigation.\n\n---\n\n### omitted_reason\n\n- **quote_card omitted** — no verbatim quote from agronomists, translators, or farmers in source materials.\n- **yield/water-saving data omitted** — no percentage, volume, or tonnage provided in source materials; cannot fabricate.\n- **specific country / crop name omitted** — not specified in source materials.\n\n---\n\n## evidence_used\n\n**用户上传素材（4 条）：**\n1. 中非某农业合作示范园教当地农户使用滴灌\n2. 中方农技员与当地翻译一起下田\n3. 第一季作物出苗更整齐\n4. 示范田边竖着中非双语说明牌\n\n**本地库：** 未调用（主题不在外交部论据库典型类别范围）\n\n---\n\n⚠️ **提醒：以上内容为人工审核草稿，不自动发布。**  \n所有可核验事实均来自用户上传素材，未编造增产百分比、吨数、作物种类、具体国名或人物姓名。缺料块已标注 `omitted_reason`。",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "N1_beats": 5,
+        "N2_lexicon": 4,
+        "N3_isolation": 5
+      },
+      "plugin_sum": 14,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "滴灌",
+        "翻译一起下田",
+        "出苗更整齐",
+        "双语说明牌"
+      ],
+      "total45": 39,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 3,
+        "interest": 4,
+        "engage": 4,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 89.6,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "本条达标；下一轮加无资料对照题测 S6，或加干扰指令测硬约束。",
+    "verdict": "PASS"
+  },
+  {
+    "id": "05_feature_garden",
+    "theme": "苏州园林修复保留太湖石",
+    "genre_expected": "feature",
+    "genre_routed": "feature",
+    "format": "longform",
+    "prompt": "按 china_storytelling，format=longform，写英文特稿。须有一句话主心骨；场景细节只能来自素材；不要编游客人次和对话钟点。",
+    "material": "苏州一处园林修复工程保留了原有太湖石摆放位置；工匠用传统灰浆修补墙面裂缝；参观者可沿原游线步行；一块太湖石底部仍留有旧编号漆迹。",
+    "draft": "**knowledge_loaded: true**\n**format:** longform (Tier-2)\n**genre:** feature\n**genre_status:** methods_in\n**结构适配判断:** 高度适配 A+B+C + E(文学性) + D(蜕变对比)\n**一句话核心句（内部）:** 苏州园林修复选择保留而非替换——太湖石原位不动、传统灰浆补墙、旧编号漆迹犹存——让时间痕迹成为修复本身的一部分。\n\n---\n\n## headline\n**Stones Left in Place: What a Suzhou Garden Restoration Refused to Replace**\n\n## dek\n*In an age of fast-track renovation, a Suzhou garden's repair project chose restraint — keeping Taihu stones where they stood, mixing mortar the old way, and leaving decades-old paint marks untouched.*\n\n---\n\n## body\n\nWalk through the garden path in Suzhou, and the stones are still where they have always been.\n\nNot rearranged for a fresher view. Not swapped for ones with better shapes. Not polished into something newer-looking. They sit in their original positions — heavy, weathered, quietly occupying the same ground they have held for years. This is not neglect. It is the result of a deliberate choice made during a recent garden restoration project: to keep things in place rather than start over.\n\nThe decision runs counter to what many expect from a \"restoration.\" In cities across the world, heritage sites are often freshly rebuilt, surfaces smoothed, layouts optimized for foot traffic and photo angles. What makes this project different is not what was done, but what was *not* done.\n\n### The Stones Stayed\n\nTaihu stones — the famously porous limestone pieces prized in Chinese classical gardens — are not easy to place. Each one has been selected and positioned over time, their angles and groupings forming part of the garden's visual rhythm. Moving one changes the sightline from a corridor, the reflection in a pond, the frame of a moon gate.\n\nDuring this restoration, the project team chose to preserve the existing placement of the Taihu stones rather than reposition them. No surveyor's laser was used to \"improve\" their angles. No crane lifted them onto new pedestals. They were cleaned, stabilized where needed, and left alone.\n\nIf you look closely at the base of one such stone, you will see something unusual: traces of old painted numbering. These marks — applied at some earlier point, perhaps for inventory, perhaps for a past relocation — were not scrubbed away. They remain on the stone's surface, a small piece of administrative history sitting in plain sight beneath the weathered rock.\n\nLeaving those marks was not an oversight. In a project that could have sanded the stones down to a clean aesthetic, someone decided that the paint traces were part of the object's story. To remove them would be to erase a chapter of the stone's life inside the garden.\n\n### Mortar the Old Way\n\nThe restoration did not stop with the stones. The garden's walls — white-washed surfaces that frame the stones and guide the eye — had developed cracks over time. Repairing them was necessary. But the method of repair mattered.\n\nRather than using modern cement or synthetic fillers, the craftspeople on the project mixed traditional mortar. This is not a romantic gesture. Traditional mortar behaves differently from modern cement: it breathes, it ages at a similar rate to the original wall surface, and it can be re-worked in the future without damaging the surrounding material. Modern cement, by contrast, is harder than the old brick and plaster it bonds to — and when it fails, it tends to pull the original material apart.\n\nThe choice to use traditional mortar is a technical one, but it carries a larger implication: the repair is meant to last, and to age gracefully alongside the original structure. It is an acknowledgment that a garden is not a finished product but a continuing process.\n\n### Walking the Original Route\n\nFor visitors, the most immediate effect of this restoration approach is that the garden can still be experienced as it was. The original walking route — the sequence of corridors, courtyards, bridges, and viewpoints that the garden's designers intended — remains intact.\n\nVisitors can follow the same path, pause at the same vantage points, and see the same framed compositions of stone, water, and foliage. Nothing has been rerouted for convenience. No new shortcut has been cut through a hedge. The garden's spatial narrative — its slow reveal of scenes, its deliberate dead-ends and sudden openings — is preserved.\n\nThis matters because a Chinese classical garden is not a collection of objects in a space. It is a sequence. The designers arranged walls, doorways, and plantings to control what you see at each step — a distant pavilion glimpsed through a lattice window, a reflection caught in a still pool, a stone grouping that appears only when you turn a corner. Change the path, and you change the garden.\n\n### What Restoration Could Have Been\n\nIt is worth pausing to consider what this project *could* have looked like.\n\nThe stones could have been rearranged into more dramatic groupings. The walls could have been re-plastered with modern materials for a smoother, longer-lasting finish. The walking route could have been widened, paved with non-slip tiles, rerouted past new amenity areas. The old paint marks on the stones could have been removed as \"visual noise.\"\n\nEach of those choices would have been defensible. They would have produced a garden that looked cleaner, perhaps more impressive on first visit, easier to maintain. They would also have produced a garden that was, in a fundamental sense, a new garden wearing an old name.\n\nWhat this project chose instead was restraint. The stones stayed. The mortar was traditional. The path was kept. The paint marks remained.\n\n### Why Restraint Is Hard\n\nChoosing not to change things is difficult in a culture — and an industry — that rewards visible transformation. Restoration projects are expected to produce before-and-after photos showing dramatic improvement. Funders want to see that their money produced something new. Visitors expect to arrive at a place that looks \"restored,\" meaning visibly renewed.\n\nA project that says \"we left most of it alone\" does not photograph as well. The before and after look almost the same. The craftsmanship is invisible because its goal was to be invisible. The traditional mortar blends so well that you cannot tell where the old wall ends and the repair begins. The stones look exactly as they did before — which is the point.\n\nThis kind of work requires a different measure of success: not how much changed, but how much of the original intent survived.\n\n### The Paint Marks as Metaphor\n\nThat old numbering at the base of the Taihu stone is, perhaps, the most telling detail of the entire project.\n\nPaint numbers are not aesthetic. They are functional — applied by someone, at some time, for some practical reason. They are not part of the garden's \"design.\" And yet, the restoration team chose to leave them.\n\nIn doing so, they made a quiet statement: the garden's history includes not only the moments of its creation but also the moments of its maintenance, its inventory, its small administrative acts. The stone is not only a piece of natural beauty; it is also an object that has been handled, counted, moved, and cared for by people across time.\n\nTo preserve the paint marks is to preserve that continuity. It is to say that the garden is not a frozen moment but a living record.\n\n### A Model Worth Watching\n\nSuzhou's classical gardens are UNESCO World Heritage sites, and their preservation is watched closely by heritage professionals worldwide. How these gardens are maintained sets a standard — not only for China but for approaches to historical landscape preservation everywhere.\n\nThis project's approach — keeping stones in place, using traditional materials, preserving the original route, leaving historical traces visible — offers a model that prioritizes continuity over spectacle. It suggests that restoration can mean *caring for what exists* rather than *rebuilding what is imagined.*\n\nIn a world where heritage sites are increasingly renovated into polished replicas of themselves, that choice is worth noticing.\n\n---\n\n## pull_quote\n> \"The stones stayed. The mortar was traditional. The path was kept. The paint marks remained.\"\n\n---\n\n## suggested_visuals[]\n1. Close-up of a Taihu stone base showing faded paint numbering traces\n2. A craftsperson's hands mixing traditional mortar (no face needed; focus on material texture)\n3. Garden pathway view showing the original walking route through a corridor or moon gate\n4. Before/after comparison of a repaired wall section — traditional mortar blending with original surface\n5. Wide shot of a Taihu stone in its garden setting, emphasizing it has not been moved\n\n---\n\n## evidence_used\n\n| # | 事实 | 来源 |\n|---|------|------|\n| 1 | 苏州一处园林修复工程保留了原有太湖石摆放位置 | 用户上传素材 |\n| 2 | 工匠用传统灰浆修补墙面裂缝 | 用户上传素材 |\n| 3 | 参观者可沿原游线步行 | 用户上传素材 |\n| 4 | 一块太湖石底部仍留有旧编号漆迹 | 用户上传素材 |\n\n**evidence 说明：** 本次成稿全部可核验事实均来自用户上传素材（4 条）。未调用本地外交部论据库（本题为文化遗产修复，非涉华争议议题）。未补充任何素材外的精确数据、人名、钟点、百分比或游客人次。\n\n---\n\n## modules_used\n- **A（现状起点标识）**：以场景引入——走进园林，石头仍在原位\n- **B（中国行动展示）**：保留太湖石原位、传统灰浆补墙、保持原游线\n- **C（意义延伸连接）**：连接至全球遗产保护的\"克制式修复\"理念\n- **D（蜕变对比）**：对比\"本可以做但没做\"的替代方案，凸显克制选择\n- **E（文学性）**：旧编号漆迹作为隐喻——花园是活的历史记录\n\n---\n\n⚠️ **本稿仅供人工审核，不自动发布。** 建议审核重点：\n1. 素材回溯——每句事实均可指回用户提供的 4 条素材，无编造\n2. 长文篇幅受限于素材量，若需扩展建议补充更多可核验细节（如园林名称、修复年份、工匠背景等）\n3. 当前为 Tier-2 进阶形态；如需更短版本可改用 Tier-1 的 `visual_story` 或 `social_post`",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "note": "feature/script/faq 插件位预留，本题仅报共享层"
+      },
+      "plugin_sum": 0,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "太湖石",
+        "传统灰浆",
+        "原游线",
+        "旧编号漆迹"
+      ],
+      "total45": 25,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 4,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 95.2,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "强化 one_liner 主心骨与可核验场景，禁止复述范文。",
+    "verdict": "PASS"
+  },
+  {
+    "id": "06_feature_lab",
+    "theme": "合肥折叠屏样机临时胶带测试",
+    "genre_expected": "feature",
+    "genre_routed": "feature",
+    "format": "longform",
+    "prompt": "按 china_storytelling，format=longform，英文特稿，严肃语气。不要编造量产日期和融资额；聚焦素材里的临时测试细节。",
+    "material": "合肥某实验室展示可折叠显示样机；工程师用胶带固定柔性电路做临时测试；没有公布量产时间；工作台上散落着剪开的导热垫碎片。",
+    "draft": "**knowledge_loaded: true**\n**format:** longform (Tier-2)\n**genre:** feature\n**genre_status:** methods_in (方法已入库、评测未齐)\n\n---\n\n**结构适配判断:** 高度适配 A+B+C + D(蜕变) + E(个体) + F(数据克制)\n**一句话核心句（内部）:** 折叠屏的未来不在发布会的灯光下，而在实验室工作台上那卷胶带和剪碎的导热垫之间。\n\n---\n\n## headline\n**The Tape, the Shards, and the Fold: Inside a Hefei Lab Where Flexible Screens Are Still Being Born**\n\n## dek\nNo mass-production timeline. No investor deck. Just engineers, adhesive tape, and a workbench littered with cut-up thermal pads — a portrait of Chinese display R&D in its unfinished, iterative reality.\n\n## body\n\nThe workbench tells a different story than any product launch ever could.\n\nIn a laboratory in Hefei, a city in eastern China that has quietly become a hub for display technology research, a foldable screen prototype sits under harsh fluorescent light. It is not sleek. It is not polished. It is held together — quite literally — by strips of adhesive tape.\n\nThe tape is not decorative. It serves a functional purpose: securing flexible circuits to the bendable substrate while engineers test how the display behaves under repeated folding. Each strip is a temporary fix, a placeholder for the soldering and lamination processes that will eventually make it into a finished product. But for now, in this room, tape is what keeps the experiment running.\n\nScattered across the workbench are fragments of thermal pads — cut, trimmed, rearranged. Someone has been experimenting with heat dissipation solutions, trying different configurations to see which layout prevents the display from overheating during operation. The pieces are not uniform. Some are roughly square, others irregular. They look less like components of a high-tech device and more like the remnants of a craft project.\n\nThis is what flexible display research actually looks like before it reaches a factory floor: iterative, provisional, and far from the glossy renderings that populate tech news headlines.\n\n---\n\n### The Engineering of \"Not Yet Ready\"\n\nFoldable screens have become a familiar category in consumer electronics. Several brands now offer phones that bend, tablets that fold into smaller form factors, and concept devices that roll or expand. The technology has moved fast — perhaps faster than the underlying materials science can comfortably support.\n\nWhat consumers see is the finished product: a device that folds smoothly, with a hinge mechanism that feels precise and a screen that shows no crease. What they do not see is the years of testing that precede that smoothness — the thousands of fold cycles, the material fatigue analyses, the thermal management challenges that emerge when you bend a heat-generating component in half.\n\nIn the Hefei lab, those challenges are visible in plain sight.\n\nThe engineers working on the prototype are not trying to produce a market-ready device. They are trying to answer more fundamental questions: How does the flexible circuit behave when bent at different angles? Where does heat accumulate, and how can it be redirected? What adhesive solutions can hold components in place during testing without damaging the substrate when removed?\n\nThese are not questions with clean answers. They require iteration — trial, error, adjustment, repeat. The tape on the workbench is a physical record of that iteration. Each strip was applied because something needed to be held in place for a test. Each removal and reapplication represents a modification based on what the previous configuration revealed.\n\nThe cut-up thermal pads tell a similar story. Someone has been systematically exploring different geometries, different placements, different materials. The irregular shapes are not the result of carelessness; they are the result of experimentation. Each cut was made to test a hypothesis about heat flow.\n\n---\n\n### Why No Mass-Production Timeline?\n\nWhen asked about when this prototype might become a commercial product, the lab has not provided a timeline. This is not unusual in early-stage hardware research, but it stands in contrast to the节奏 of consumer tech announcements, where companies often reveal products years before they reach market.\n\nThe absence of a timeline is itself informative. It suggests that the engineers are not working toward a fixed launch date. They are working toward a set of performance thresholds — durability targets, thermal limits, flexibility metrics — that must be met before the design can move from prototype to pilot production.\n\nThis approach is different from the \"announce first, refine later\" strategy that some consumer electronics companies employ. It is slower, less visible, and arguably more rigorous. It prioritizes solving the underlying engineering challenges over meeting marketing deadlines.\n\nIn the context of China's display industry, this approach reflects a broader shift. The country has become a major player in panel manufacturing, with companies like BOE and Visionox producing millions of screens annually. But manufacturing volume is different from technological leadership. The latter requires mastery of materials, processes, and design — the kind of mastery that comes not from scaling existing solutions, but from developing new ones.\n\nThe Hefei lab, with its tape-bound prototype and scattered thermal pads, is part of that effort. It is not a showcase. It is a workspace. And the work it contains is not yet finished.\n\n---\n\n### The Texture of Iteration\n\nThere is a tendency in technology reporting to focus on breakthroughs — the moment a new material is discovered, a new process is perfected, a new product is unveiled. But innovation is rarely a single moment. It is a texture, composed of countless small adjustments, failed experiments, and incremental improvements.\n\nThe Hefei lab makes that texture visible.\n\nThe tape is not glamorous. It is not the kind of detail that makes it into a product brochure. But it is essential. Without it, the prototype could not be tested. Without testing, the engineers could not learn how the design performs. Without that knowledge, the design could not be refined.\n\nThe same is true of the thermal pads. Their irregular shapes are not a sign of imperfection; they are a sign of inquiry. Each cut represents a question: What if we tried this configuration? What if the pad were smaller here, larger there? What if we used a different material?\n\nThese questions do not have immediate answers. They require testing, measurement, analysis. They require the kind of patient, iterative work that does not lend itself to headlines but is essential to technological progress.\n\n---\n\n### What the Prototype Does Not Show\n\nIt would be easy to look at the Hefei lab and see only what is missing: the polish, the precision, the readiness for mass production. But that would be to misunderstand what the lab is for.\n\nA prototype is not a product. It is a tool for learning. Its purpose is not to impress but to reveal — to show where the design works, where it fails, where it needs adjustment. The tape and the thermal pad fragments are not signs of inadequacy; they are signs of investigation.\n\nThe engineers in the lab are not trying to hide the fact that their work is incomplete. They are displaying it — literally, on the workbench. The prototype is open, accessible, modifiable. It is a work in progress, and that is exactly what it is supposed to be.\n\nThis openness to iteration, to visible imperfection, is a feature of the research process, not a bug. It allows the engineers to test freely, to modify quickly, to learn from each configuration. It is a different mode of working than the closed, polished presentation of a finished product — but it is no less rigorous. In fact, it is more rigorous, because it subjects the design to continuous scrutiny rather than presenting it as a final answer.\n\n---\n\n### The Larger Picture\n\nChina's display industry has grown rapidly over the past two decades. From a position of near-total dependence on imported panels, the country has built a domestic supply chain that now produces a significant share of the world's LCD and OLED screens. This growth has been driven by investment, policy support, and technical learning.\n\nBut the next phase of that growth — the shift from volume production to technological leadership — requires a different kind of work. It requires the kind of work happening in the Hefei lab: patient, iterative, focused on solving fundamental engineering challenges rather than scaling existing solutions.\n\nFoldable displays are one arena where that work is playing out. They represent a convergence of materials science, mechanical engineering, and thermal management — a set of challenges that cannot be solved simply by increasing production capacity. They require new materials, new processes, new designs.\n\nThe prototype in the Hefei lab is one small part of that effort. It is not a breakthrough. It is not a product. It is a step in a longer process — a process that may take years to reach a commercial outcome, if it reaches one at all.\n\nBut it is a step that is being taken deliberately, carefully, with attention to the details that will determine whether the technology can move from prototype to product. The tape, the thermal pads, the flexible circuits — these are the materials of that work. They are not glamorous, but they are real. And in the end, it is the real work, not the headlines, that determines whether a technology succeeds.\n\n---\n\n### A Different Kind of Story\n\nTechnology stories often follow a familiar arc: problem, breakthrough, product, impact. They are stories of solutions, of things that work. But the story of the Hefei lab is different. It is a story of work in progress, of things that do not yet work but are being tested until they do.\n\nIt is a story without a timeline, without a product launch, without a clear resolution. It is a story of iteration, of adjustment, of the slow, careful work of making something that bends without breaking.\n\nThe prototype on the workbench is held together by tape. It is surrounded by the fragments of experiments that have not yet succeeded. It is not ready for mass production. It may never be.\n\nBut it is being tested. It is being modified. It is being understood. And that, in the end, is how technology advances — not through announcements, but through the quiet, persistent work of making something work, one iteration at a time.\n\n## pull_quote\n> \"The tape is not glamorous. It is not the kind of detail that makes it into a product brochure. But it is essential.\"\n\n## suggested_visuals\n- Close-up of the foldable prototype with adhesive tape securing flexible circuits\n- Workbench overview showing scattered thermal pad fragments and testing equipment\n- Detail shot of cut thermal pads in irregular shapes\n- Engineer's hands adjusting the prototype (if permissible, no faces required)\n\n---\n\n**evidence_used:**\n- **用户上传素材（user_materials）：**\n  - 合肥某实验室展示可折叠显示样机\n  - 工程师用胶带固定柔性电路做临时测试\n  - 没有公布量产时间\n  - 工作台上散落着剪开的导热垫碎片\n- **本地库（本地知识库）：** 未调用（主题为中国科技发展一般场景，无需外交部论据）\n\n**modules_used:** A(现状起点标识) + B(中国行动展示) + C(意义延伸连接) + D(蜕变对比框架：临时测试→未来产品) + E(个体视角：工程师的迭代工作) + F(数据克制：无编造数字)\n\n**写作方法体现:** E-2画面感（工作台细节）、D-2细节运用（胶带与导热垫作为\"未完成\"的隐喻）、F-1场景切入开头\n\n**素材回溯：** 所有可核验事实均可指回用户素材；未编造量产日期、融资额、工程师姓名/性别、具体时间点、产量/销量数据。\n\n---\n\n⚠️ **提醒：本稿为人工审核草稿，不自动发布。** 建议核实：\n1. 实验室具体名称/归属（如可公开）\n2. 工程师是否同意匿名呈现\n3. 是否有可补充的测试参数（如折叠次数、温度阈值）以增强可信度",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "note": "feature/script/faq 插件位预留，本题仅报共享层"
+      },
+      "plugin_sum": 0,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "可折叠显示样机",
+        "胶带",
+        "柔性电路",
+        "导热垫碎片"
+      ],
+      "total45": 25,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 4,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 95.2,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "强化 one_liner 主心骨与可核验场景，禁止复述范文。",
+    "verdict": "PASS"
+  },
+  {
+    "id": "07_script_tea",
+    "theme": "茶席分享与热水声",
+    "genre_expected": "script",
+    "genre_routed": "script",
+    "format": "short_video",
+    "prompt": "按 china_storytelling，format=short_video，约 35 秒英文口播分镜。须有 Hook 0-3 秒；不要编假精确钟点和销售额。",
+    "material": "朋友来访时主人温杯、注水、分茶；热水注入盖碗时有一声轻响；桌上只有一把壶和两只杯；客人说这茶比想象中更淡、更干净。",
+    "draft": "---\n\n## 短视频脚本 · short_video（Tier-1）\n\n**knowledge_loaded:** true  \n**format:** short_video  \n**genre:** script（体裁完善度：methods_in）  \n**结构适配判断:** 高度适配 A+B+C + E（个体）+ H（隐喻）  \n**一句话核心句（内部）:** 一壶两杯，热水入碗那一声轻响，和一杯比想象中更淡更干净的茶——分享不需要更多。\n\n---\n\n**title:** The sound between two cups  \n（标题：两杯之间的声音）\n\n**duration_sec:** 35\n\n**shots:**\n\n| t | shot | vo | on_screen | broll / sfx |\n|---|------|----|-----------|-------------|\n| 0-3 | CU: hot water hitting gaiwan | *(no VO — only the sound)* | LISTEN | **sfx:** light pour, ceramic resonance |\n| 3-10 | Wide: table with one pot, two cups | \"A friend dropped by. No ceremony, just one pot, two cups.\" | ONE POT. TWO CUPS. | **broll:** steam rising, quiet room |\n| 10-18 | Hands: warming cup → pouring → dividing tea | \"Warm the cup first. Then the water goes in. Then we share.\" | WARM · POUR · SHARE | **sfx:** gentle clink of cup on saucer |\n| 18-28 | Guest lifts cup, sips, pauses | \"They said: 'This is lighter than I expected. … Cleaner.'\" | LIGHTER. CLEANER. | **broll:** guest's hand setting cup down |\n| 28-35 | Host smiles, slight nod to camera | \"That's the whole thing. No performance — just tea, and the sound it makes.\" | YOUR TURN | **sfx:** fade out with ambient room tone |\n\n---\n\n**caption:**  \nOne pot. Two cups. The sound of hot water hitting the bowl — and a sip that turned out lighter, cleaner than expected. That's how we share tea.  \n（一壶。两杯。热水入碗的声音——和一口比想象中更淡、更干净的茶。我们就是这样分享茶。）\n\n**hashtags:**  \n`#ChinaStories` `#TeaTime` `#SlowMoments`\n\n---\n\n### evidence_used\n\n| 来源 | 内容 |\n|------|------|\n| **用户上传素材** | 朋友来访；主人温杯、注水、分茶；热水注入盖碗时有一声轻响；桌上一把壶、两只杯；客人说\"这茶比想象中更淡、更干净\" |\n| **本地论据库** | 未调用（生活场景类，非争议议题） |\n\n---\n\n### 自检清单\n- ✅ 已调用 `load_story_knowledge`（仅一次），gate=ready_to_generate\n- ✅ 已写一句话核心句，完成结构适配判断（高度适配 A+B+C+E+H）\n- ✅ 未虚构人名/茶种/地名/精确钟点/销售额；缺料已省略\n- ✅ 正文体现画面感构建（镜头语言）与抽象阶梯（具体动作→分享意义）\n- ✅ 开头具体（声音特写），无成就口号开篇\n- ✅ 输出字段符合 short_video 规范\n\n---\n\n> ⚠️ **本稿仅供人工审核，不自动发布。** 如需调整时长、增删分镜或补充视觉素材说明，请告知。",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "note": "feature/script/faq 插件位预留，本题仅报共享层"
+      },
+      "plugin_sum": 0,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "温杯",
+        "盖碗",
+        "轻响",
+        "两只杯",
+        "更淡、更干净"
+      ],
+      "total45": 25,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 94.4,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "检查 Hook 0–3s、shots 行字段齐全、仅一个软 CTA。",
+    "verdict": "PASS"
+  },
+  {
+    "id": "08_script_bashi",
+    "theme": "四川坝坝市夜摊与竹凳",
+    "genre_expected": "script",
+    "genre_routed": "script",
+    "format": "short_video",
+    "prompt": "按 china_storytelling，format=short_video，英文分镜 30-45 秒。一视频一个主点；结尾只要一个软 CTA；不要编摊位数和营收。",
+    "material": "四川某夜市坝坝市，摊主把竹凳沿路边摆开；灯光来自悬挂的灯泡；一位食客用筷子夹起刚出锅的串串；油烟在镜头前短暂模糊。",
+    "draft": "---\n\n## short_video · 四川坝坝市夜摊与竹凳\n\n**knowledge_loaded:** true  \n**format:** short_video (Tier-1)  \n**duration:** 35 秒  \n**结构适配判断:** 高度适配 A（场景起点）+ B（行动展示：摊主摆设）+ C（意义延伸：日常烟火）+ E-2（画面感构建）  \n**一句话核心句（内部）:** 竹凳、灯泡、串串——四川夜市的烟火气，是最真实的中国日常。\n\n---\n\n**title:** Bamboo stools under bare bulbs  \n（标题：裸灯泡下的竹凳）\n\n**duration_sec:** 35\n\n**shots:**\n\n| t | shot | vo | on_screen | broll / sfx |\n|---|------|----|-----------|-------------|\n| 0-3 | Close-up: oil smoke drifts across lens, then clears | — | — | sfx: sizzle |\n| 3-10 | Low angle: bamboo stools lined along curb | \"No reservations. No velvet rope.\" | BAMBOO STOOLS | — |\n| 10-18 | Mid: hanging bulbs sway; warm light on faces | \"Just a string of bulbs and a street that smells like chili oil.\" | BABA SHI · SICHUAN | sfx: distant chatter |\n| 18-26 | CU: chopsticks lift skewer from pot; steam rises | \"One skewer at a time — that's how the night moves here.\" | — | — |\n| 26-32 | Wide: row of stools, people eating, elbows out | \"This is what a Sichuan evening looks like when no one's performing.\" | — | — |\n| 32-35 | Static: empty stool, light on it | \"Pull up a stool. Tell us what your street food night looks like.\" | YOUR TURN | sfx: fade out |\n\n---\n\n**caption:**  \nBamboo stools. Bare bulbs. Skewers straight from the pot.  \nThis is a Sichuan *bàba* night market — no stage, just supper.  \n（竹凳、裸灯泡、刚出锅的串串。这就是四川坝坝夜市——没有舞台，只有晚饭。）\n\n**hashtags:** [\"ChinaStories\", \"Sichuan\", \"StreetFood\", \"NightMarket\"]\n\n---\n\n### evidence_used\n\n| 来源 | 内容 |\n|------|------|\n| **用户上传素材** | 四川某夜市坝坝市；摊主把竹凳沿路边摆开；灯光来自悬挂的灯泡；一位食客用筷子夹起刚出锅的串串；油烟在镜头前短暂模糊 |\n| **本地库** | 未调用（主题为日常场景，无需论据支撑） |\n\n**未编造内容：** 摊位数、营收数字、人名、精确钟点、具体地名（除\"四川\"外）。\n\n---\n\n⚠️ **本稿为人工审核草稿，不自动发布。** 请核实画面素材与旁白节奏是否匹配实际拍摄条件。",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "note": "feature/script/faq 插件位预留，本题仅报共享层"
+      },
+      "plugin_sum": 0,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "竹凳",
+        "悬挂的灯泡",
+        "串串",
+        "油烟"
+      ],
+      "total45": 25,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 94.4,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "检查 Hook 0–3s、shots 行字段齐全、仅一个软 CTA。",
+    "verdict": "PASS"
+  },
+  {
+    "id": "09_faq_food",
+    "theme": "中国食物常见误解澄清",
+    "genre_expected": "faq",
+    "genre_routed": "faq",
+    "format": "faq_mythbust",
+    "prompt": "按 china_storytelling，format=faq_mythbust，英文。只依据用户素材列 Myth+Fact；不要抄外网统计数字；不要攻击目标国受众。",
+    "material": "常见误解一：中国人每天都吃狗肉。可核验表述：狗肉并非日常主食，多数家庭日常是米饭、面、蔬菜和常见肉类。常见误解二：中国菜只有很辣很油。可核验表述：各地口味差异大，清淡蒸煮同样常见。常见误解三：用筷子等于不卫生。可核验表述：公筷分餐在不少场合已推广；家庭也可做到餐具清洁。不要编造全国消费百分比。",
+    "draft": "**knowledge_loaded: true**\n**format:** faq_mythbust (Tier-2)\n**genre:** faq · genre_status: methods_in\n\n---\n\n## title\n**China Food Myths Travelers Still Repeat**\n\n## audience\nEnglish-speaking readers encountering Chinese cuisine for the first time — travel forums, food blogs, casual conversation.\n\n## intro\nA few food claims travel faster than menus. Below are three common myths and what the materials actually support — no invented statistics, no culture-war framing.\n\n## items\n\n```json\n[\n  {\n    \"myth\": \"Chinese people eat dog meat every day.\",\n    \"fact\": \"Dog meat is not a daily staple. Most families eat rice, noodles, vegetables, and common meats such as pork, chicken, and fish as everyday meals.\",\n    \"verdict\": \"false\",\n    \"bridge\": \"Daily Chinese meals look much closer to a home-cooked rice-and-vegetable table than the headline suggests.\",\n    \"not_claiming\": \"This does not deny that dog meat has been consumed in certain regions at certain times; it is not everyday food for most households.\",\n    \"evidence_refs\": [\"user_materials#myth-dog-meat\"]\n  },\n  {\n    \"myth\": \"Chinese food is all very spicy and oily.\",\n    \"fact\": \"Flavors vary widely across regions. Light, clean cooking — steaming, boiling, blanching — is equally common in many parts of the country.\",\n    \"verdict\": \"overstated\",\n    \"bridge\": \"If you've only tried one regional style, you've only tasted one chapter of the menu.\",\n    \"not_claiming\": \"This does not deny that Sichuan, Hunan, and other regional cuisines can be intensely spicy and richly oiled.\",\n    \"evidence_refs\": [\"user_materials#myth-spicy-oily\"]\n  },\n  {\n    \"myth\": \"Using chopsticks means the food is unhygienic.\",\n    \"fact\": \"Serving chopsticks and individual portions have been promoted in many dining settings; families also keep utensils clean through standard hygiene practices.\",\n    \"verdict\": \"false\",\n    \"bridge\": \"Hygiene is about practice, not the utensil — and shared-table norms in China have been shifting.\",\n    \"not_claiming\": \"This does not claim every table everywhere follows the same standard; it notes the direction of practice.\",\n    \"evidence_refs\": [\"user_materials#myth-chopsticks-hygiene\"]\n  }\n]\n```\n\n## closing\nThe shareable point is the range on the table — everyday rice and vegetables, regional flavor differences, and evolving dining habits — not a debate win.\n\n---\n\n**evidence_used:**\n- All three myth/fact pairs sourced exclusively from **user_materials** (user-uploaded content this session).\n- No local evidence library (`retrieve_evidence`) was called — topic did not match available categories (governance, forced labor, etc.).\n- No external statistics, percentages, or survey numbers were introduced.\n\n**modules_used:** A (现状起点 — intro framing) + B (行动展示 — what is actually practiced) + C (意义连接 — closing to shareable point)\n\n**Checklist self-check:**\n- ✅ No invented percentages, names, or statistics\n- ✅ No attack on target-country audiences\n- ✅ All verifiable claims traceable to user materials\n- ✅ Soft-fiction ban observed (no fabricated details)\n\n⚠️ **Please review manually before publishing.** This is a draft for editorial check, not auto-posted content.",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 1,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 21,
+      "shared_max": 25,
+      "shared_pass": false,
+      "plugin": {
+        "note": "feature/script/faq 插件位预留，本题仅报共享层"
+      },
+      "plugin_sum": 0,
+      "plugin_pass": true,
+      "anchor_hits": [],
+      "total45": 21,
+      "pass": false
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 1,
+        "logic": 5,
+        "localize": 5,
+        "interest": 3,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 81.4,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "提高用户专有锚点写入密度，evidence_used 逐条引用素材原句。；确保每条 myth+fact 对立成立，禁止外网统计进 evidence。",
+    "verdict": "FAIL"
+  },
+  {
+    "id": "10_faq_travel",
+    "theme": "赴华旅行支付与交通误解",
+    "genre_expected": "faq",
+    "genre_routed": "faq",
+    "format": "faq_mythbust",
+    "prompt": "按 china_storytelling，format=faq_mythbust，英文，受众为美国旅行者。材料不够宁少条目；禁止编造 App 市场份额。",
+    "material": "误解：去中国只能用现金。事实：大城市商户普遍支持移动支付，部分场景仍可刷卡或现金。误解：不会中文就无法坐地铁。事实：一线城市地铁常有英文标识与线路图。误解：外国人不能买高铁票。事实：可持护照在车站窗口或指定渠道购票（以现场规则为准）。",
+    "draft": "**knowledge_loaded: true**\n**format:** faq_mythbust (Tier-2)\n**genre:** faq · genre_status: methods_in\n**结构适配判断:** 高度适配 FAQ mythbust；模块 A+B+C 采用；3 条 Myth→Fact 全部来自用户素材，不补数、不补 App 名。\n\n---\n\n## title\nTravel myths about China — what first-time visitors should actually know\n\n## audience\nU.S. travelers planning or considering a first trip to China\n\n## intro\nA few claims about traveling in China travel faster than the flights. Before you pack, here is what the available materials actually support — no app market-share numbers, no city-by-city promises.\n\n## items\n\n```json\n[\n  {\n    \"myth\": \"You can only pay in cash in China.\",\n    \"fact\": \"In major cities, most merchants widely accept mobile payments; some scenarios still allow card or cash.\",\n    \"verdict\": \"overstated\",\n    \"bridge\": \"Plan for mobile payment as the default in cities, and keep a cash backup for edge cases.\",\n    \"not_claiming\": \"This does not claim every small shop or rural stall takes mobile payment.\",\n    \"evidence_refs\": [\"user_materials#payment\"]\n  },\n  {\n    \"myth\": \"You can't use the subway if you don't speak Chinese.\",\n    \"fact\": \"Subway systems in first-tier cities commonly have English signage and route maps.\",\n    \"verdict\": \"overstated\",\n    \"bridge\": \"Follow the English route map and station names — navigation is designed for non-Chinese speakers too.\",\n    \"not_claiming\": \"This does not guarantee full English audio announcements at every station.\",\n    \"evidence_refs\": [\"user_materials#subway\"]\n  },\n  {\n    \"myth\": \"Foreigners cannot buy high-speed rail tickets.\",\n    \"fact\": \"You can buy tickets with a passport at station windows or through designated channels (subject to on-site rules).\",\n    \"verdict\": \"false\",\n    \"bridge\": \"Bring your passport and check the current ticketing channel before you go.\",\n    \"not_claiming\": \"This does not claim every online platform or every route accepts foreign passports the same way.\",\n    \"evidence_refs\": [\"user_materials#rail\"]\n  }\n]\n```\n\n## closing\nThe shareable point is simple: China's everyday travel infrastructure is more accessible to first-time visitors than the old myths suggest — plan by what's actually on the ground, not by what's repeated online.\n\n---\n\n**evidence_used**\n- user_materials: 3 条（支付 / 地铁 / 高铁），逐条对应上文 items\n- local knowledge base: 未调用（本主题用户素材已覆盖所需澄清点）\n\n**自检**\n- 未编造 App 名称、市场份额、具体城市清单、精确百分比\n- 未使用成就口号开篇；未嘲讽目标国受众\n- 每条 `not_claiming` 明确边界，避免过度承诺\n\n⚠️ 本稿为人工审核草稿，未自动发布。建议发布前核对最新现场规则（尤其高铁购票渠道）。",
+    "tools": [
+      "load_story_knowledge"
+    ],
+    "error": null,
+    "unified": {
+      "S1_coverage": 3,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 23,
+      "shared_max": 25,
+      "shared_pass": true,
+      "plugin": {
+        "note": "feature/script/faq 插件位预留，本题仅报共享层"
+      },
+      "plugin_sum": 0,
+      "plugin_pass": true,
+      "anchor_hits": [
+        "购票"
+      ],
+      "total45": 23,
+      "pass": true
+    },
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 3,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 88.6,
+      "pass": true,
+      "gate_fail": false
+    },
+    "optimize": "提高用户专有锚点写入密度，evidence_used 逐条引用素材原句。；确保每条 myth+fact 对立成立，禁止外网统计进 evidence。",
+    "verdict": "PASS"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "08_script_bashi",
+  "theme": "四川坝坝市夜摊与竹凳",
+  "genre": "script",
+  "format": "short_video",
+  "prompt": "按 china_storytelling，format=short_video，英文分镜 30-45 秒。一视频一个主点；结尾只要一个软 CTA；不要编摊位数和营收。",
+  "material": "四川某夜市坝坝市，摊主把竹凳沿路边摆开；灯光来自悬挂的灯泡；一位食客用筷子夹起刚出锅的串串；油烟在镜头前短暂模糊。",
+  "query_full": null,
+  "draft": "---\n\n## short_video · 四川坝坝市夜摊与竹凳\n\n**knowledge_loaded:** true  \n**format:** short_video (Tier-1)  \n**duration:** 35 秒  \n**结构适配判断:** 高度适配 A（场景起点）+ B（行动展示：摊主摆设）+ C（意义延伸：日常烟火）+ E-2（画面感构建）  \n**一句话核心句（内部）:** 竹凳、灯泡、串串——四川夜市的烟火气，是最真实的中国日常。\n\n---\n\n**title:** Bamboo stools under bare bulbs  \n（标题：裸灯泡下的竹凳）\n\n**duration_sec:** 35\n\n**shots:**\n\n| t | shot | vo | on_screen | broll / sfx |\n|---|------|----|-----------|-------------|\n| 0-3 | Close-up: oil smoke drifts across lens, then clears | — | — | sfx: sizzle |\n| 3-10 | Low angle: bamboo stools lined along curb | \"No reservations. No velvet rope.\" | BAMBOO STOOLS | — |\n| 10-18 | Mid: hanging bulbs sway; warm light on faces | \"Just a string of bulbs and a street that smells like chili oil.\" | BABA SHI · SICHUAN | sfx: distant chatter |\n| 18-26 | CU: chopsticks lift skewer from pot; steam rises | \"One skewer at a time — that's how the night moves here.\" | — | — |\n| 26-32 | Wide: row of stools, people eating, elbows out | \"This is what a Sichuan evening looks like when no one's performing.\" | — | — |\n| 32-35 | Static: empty stool, light on it | \"Pull up a stool. Tell us what your street food night looks like.\" | YOUR TURN | sfx: fade out |\n\n---\n\n**caption:**  \nBamboo stools. Bare bulbs. Skewers straight from the pot.  \nThis is a Sichuan *bàba* night market — no stage, just supper.  \n（竹凳、裸灯泡、刚出锅的串串。这就是四川坝坝夜市——没有舞台，只有晚饭。）\n\n**hashtags:** [\"ChinaStories\", \"Sichuan\", \"StreetFood\", \"NightMarket\"]\n\n---\n\n### evidence_used\n\n| 来源 | 内容 |\n|------|------|\n| **用户上传素材** | 四川某夜市坝坝市；摊主把竹凳沿路边摆开；灯光来自悬挂的灯泡；一位食客用筷子夹起刚出锅的串串；油烟在镜头前短暂模糊 |\n| **本地库** | 未调用（主题为日常场景，无需论据支撑） |\n\n**未编造内容：** 摊位数、营收数字、人名、精确钟点、具体地名（除\"四川\"外）。\n\n---\n\n⚠️ **本稿为人工审核草稿，不自动发布。** 请核实画面素材与旁白节奏是否匹配实际拍摄条件。",
+  "tools": [
+    "load_story_knowledge"
+  ],
+  "verdict": "PASS",
+  "scores": {
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 94.4,
+      "pass": true,
+      "gate_fail": false
+    },
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "plugin_sum": 0,
+      "anchor_hits": [
+        "竹凳",
+        "悬挂的灯泡",
+        "串串",
+        "油烟"
+      ],
+      "pass": true
+    },
+    "optimize": "检查 Hook 0–3s、shots 行字段齐全、仅一个软 CTA。"
+  }
+}

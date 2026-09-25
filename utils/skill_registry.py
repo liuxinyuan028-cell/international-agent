@@ -292,7 +292,10 @@ def get_active_skills_for_query(query: str, force_reload: bool = False) -> List[
 
 
 def format_active_skills_for_prompt(query: str, force_reload: bool = False) -> str:
-    """将激活技能渲染成 prompt 片段。"""
+    """将激活技能渲染成 prompt 片段。
+
+    若激活了 china_storytelling / china_story_active，额外按提示词注入对应体裁 skill。
+    """
     skills = get_active_skills_for_query(query, force_reload=force_reload)
     if not skills:
         return ""
@@ -302,6 +305,24 @@ def format_active_skills_for_prompt(query: str, force_reload: bool = False) -> s
     ]
     for skill in skills:
         parts.append(f"### ActiveSkill::{skill.skill_id}\n{skill.content.strip()}")
+
+    active_ids = {s.skill_id for s in skills}
+    if active_ids & {"china_storytelling", "china_story_active"} and "intl_comm" not in active_ids:
+        try:
+            from tools.genre_router import detect_genre, load_genre_skill_text
+
+            info = detect_genre(query)
+            genre = info.get("genre") or "post"
+            genre_text = load_genre_skill_text(genre, max_chars=5500)
+            if genre_text:
+                parts.append(
+                    f"### ActiveSkill::genre_{genre}\n"
+                    f"(matched_by={info.get('matched_by')}; status={info.get('status')})\n"
+                    f"{genre_text}"
+                )
+        except Exception:
+            pass
+
     return "\n\n".join(parts).strip()
 
 

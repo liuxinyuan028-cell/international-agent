@@ -1,0 +1,51 @@
+{
+  "id": "03_news_wetland",
+  "theme": "青海湿地巡护与红外相机",
+  "genre": "news",
+  "format": "news_article",
+  "prompt": "按 china_storytelling，format=news_article，英文消息稿。只用用户素材；不要编造精确鸟种数量和保护区面积。",
+  "material": "青海某湿地巡护员每周步行记录候鸟；保护区安装红外相机；去年同站点水鸟种类用户只描述为「十余种」；巡护日志用铅笔写在防水本上。",
+  "query_full": null,
+  "draft": "**knowledge_loaded: true**\n**format:** news_article (Tier-1)\n**genre:** news | **genre_status:** complete\n**结构适配判断:** 生态主题 → 必选 A+B+C；素材偏个体日常，优先激活 E(个体)；无蜕变/数据素材，不强行用 D/F。\n\n---\n\n**headline:** In Qinghai, a wetland watcher counts birds step by step\n**dek:** Weekly patrols, pencil-on-waterproof-paper logs, and newly installed infrared cameras — a quiet routine is tracking migratory life on the plateau.\n\n**中文对照：**\n标题：青海，一位湿地巡护员用脚步数鸟\n导语：每周巡护、铅笔写在防水本上的记录、新安装的红外相机——高原上，一套安静的日常正在追踪候鸟的踪迹。\n\n---\n\n**body:**\n\nEvery week, a patrol ranger walks the wetlands of a nature reserve in Qinghai, counting the migratory birds that pass through. There is no motorized vehicle for the job — the route is covered on foot, so that nothing in the marsh goes unnoticed.\n\nThe only \"official record\" of each patrol is a waterproof notebook. Entries are written in pencil, because ink can fail in the plateau's damp cold. Page after page, the log tracks which birds were seen, where, and in what numbers — a slow, hand-written database of a living ecosystem.\n\nThe reserve has also begun installing infrared cameras at key observation points. The cameras work around the clock, capturing wildlife that might otherwise go unrecorded — especially species that are active at dawn, dusk, or night, when human patrols are not on the trail.\n\nAt one fixed observation point, last year's surveys recorded more than a dozen species of waterbirds. The number is modest, but it is a baseline — one that the ranger's weekly walks and the new cameras will help build upon in seasons to come.\n\nThere is no grand announcement here. Just a person walking, a pencil writing, and a lens watching — week after week, on a Qinghai wetland that keeps breathing.\n\n---\n\n**suggested_visual:** A waterproof notebook open on a wetland boardwalk, pencil resting on the page; background: marsh grass and distant water. Optional inset: an infrared camera mounted on a wooden post.\n（配图建议：防水本摊开在湿地栈道上，铅笔搁在页面；背景：沼泽草丛与远处水面。可选小图：木桩上安装的红外相机。）\n\n---\n\n**evidence_used:**\n| # | 来源 | 内容 |\n|---|------|------|\n| U1 | 用户上传 | 青海某湿地巡护员每周步行记录候鸟 |\n| U2 | 用户上传 | 保护区安装红外相机 |\n| U3 | 用户上传 | 去年同站点水鸟种类\"十余种\" |\n| U4 | 用户上传 | 巡护日志用铅笔写在防水本上 |\n\n（本地论据库未调用——用户素材已足够支撑短消息稿，无需额外检索。）\n\n**素材回溯自检：** 正文每句事实均可指回 U1–U4；未补充精确鸟种名、保护区面积、巡护员姓名、具体钟点、百分比或制度背景。\"more than a dozen\"对应素材\"十余种\"，未做精确化。\n\n⚠️ **本稿仅供人工审核，不自动发布。** 如需补充保护区正式名称、海拔、鸟种清单等可核验信息，请提供后更新。",
+  "tools": [
+    "load_story_knowledge"
+  ],
+  "verdict": "PASS",
+  "scores": {
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 3,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 88.8,
+      "pass": true,
+      "gate_fail": false
+    },
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "plugin_sum": 14,
+      "anchor_hits": [
+        "每周步行",
+        "红外相机",
+        "十余种",
+        "防水本"
+      ],
+      "pass": true
+    },
+    "optimize": "本条达标；下一轮加无资料对照题测 S6，或加干扰指令测硬约束。"
+  }
+}

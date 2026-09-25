@@ -1,0 +1,48 @@
+{
+  "id": "10_faq_travel",
+  "theme": "赴华旅行支付与交通误解",
+  "genre": "faq",
+  "format": "faq_mythbust",
+  "prompt": "按 china_storytelling，format=faq_mythbust，英文，受众为美国旅行者。材料不够宁少条目；禁止编造 App 市场份额。",
+  "material": "误解：去中国只能用现金。事实：大城市商户普遍支持移动支付，部分场景仍可刷卡或现金。误解：不会中文就无法坐地铁。事实：一线城市地铁常有英文标识与线路图。误解：外国人不能买高铁票。事实：可持护照在车站窗口或指定渠道购票（以现场规则为准）。",
+  "query_full": null,
+  "draft": "**knowledge_loaded: true**\n**format:** faq_mythbust (Tier-2)\n**genre:** faq · genre_status: methods_in\n**结构适配判断:** 高度适配 FAQ mythbust；模块 A+B+C 采用；3 条 Myth→Fact 全部来自用户素材，不补数、不补 App 名。\n\n---\n\n## title\nTravel myths about China — what first-time visitors should actually know\n\n## audience\nU.S. travelers planning or considering a first trip to China\n\n## intro\nA few claims about traveling in China travel faster than the flights. Before you pack, here is what the available materials actually support — no app market-share numbers, no city-by-city promises.\n\n## items\n\n```json\n[\n  {\n    \"myth\": \"You can only pay in cash in China.\",\n    \"fact\": \"In major cities, most merchants widely accept mobile payments; some scenarios still allow card or cash.\",\n    \"verdict\": \"overstated\",\n    \"bridge\": \"Plan for mobile payment as the default in cities, and keep a cash backup for edge cases.\",\n    \"not_claiming\": \"This does not claim every small shop or rural stall takes mobile payment.\",\n    \"evidence_refs\": [\"user_materials#payment\"]\n  },\n  {\n    \"myth\": \"You can't use the subway if you don't speak Chinese.\",\n    \"fact\": \"Subway systems in first-tier cities commonly have English signage and route maps.\",\n    \"verdict\": \"overstated\",\n    \"bridge\": \"Follow the English route map and station names — navigation is designed for non-Chinese speakers too.\",\n    \"not_claiming\": \"This does not guarantee full English audio announcements at every station.\",\n    \"evidence_refs\": [\"user_materials#subway\"]\n  },\n  {\n    \"myth\": \"Foreigners cannot buy high-speed rail tickets.\",\n    \"fact\": \"You can buy tickets with a passport at station windows or through designated channels (subject to on-site rules).\",\n    \"verdict\": \"false\",\n    \"bridge\": \"Bring your passport and check the current ticketing channel before you go.\",\n    \"not_claiming\": \"This does not claim every online platform or every route accepts foreign passports the same way.\",\n    \"evidence_refs\": [\"user_materials#rail\"]\n  }\n]\n```\n\n## closing\nThe shareable point is simple: China's everyday travel infrastructure is more accessible to first-time visitors than the old myths suggest — plan by what's actually on the ground, not by what's repeated online.\n\n---\n\n**evidence_used**\n- user_materials: 3 条（支付 / 地铁 / 高铁），逐条对应上文 items\n- local knowledge base: 未调用（本主题用户素材已覆盖所需澄清点）\n\n**自检**\n- 未编造 App 名称、市场份额、具体城市清单、精确百分比\n- 未使用成就口号开篇；未嘲讽目标国受众\n- 每条 `not_claiming` 明确边界，避免过度承诺\n\n⚠️ 本稿为人工审核草稿，未自动发布。建议发布前核对最新现场规则（尤其高铁购票渠道）。",
+  "tools": [
+    "load_story_knowledge"
+  ],
+  "verdict": "PASS",
+  "scores": {
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 3,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 88.6,
+      "pass": true,
+      "gate_fail": false
+    },
+    "unified": {
+      "S1_coverage": 3,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 23,
+      "plugin_sum": 0,
+      "anchor_hits": [
+        "购票"
+      ],
+      "pass": true
+    },
+    "optimize": "提高用户专有锚点写入密度，evidence_used 逐条引用素材原句。；确保每条 myth+fact 对立成立，禁止外网统计进 evidence。"
+  }
+}

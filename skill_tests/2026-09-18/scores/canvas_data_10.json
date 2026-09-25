@@ -1,0 +1,274 @@
+﻿[
+  {
+    "id": "01_post_grape",
+    "theme": "宁夏葡萄园滴灌与嫁接笔记",
+    "genre": "post",
+    "format": "social_post",
+    "cq": 93.0,
+    "verdict": "PASS",
+    "S1": 5,
+    "S2": 5,
+    "S3": 5,
+    "S4": 3,
+    "S5": 5,
+    "shared": 23,
+    "plugin": 12,
+    "plugin_detail": {
+      "P1_5W": 2,
+      "P2_audience": 5,
+      "P3_channel": 5
+    },
+    "hits": [
+      "砾石荒地",
+      "滴灌",
+      "失败嫁接记录本",
+      "冷凝水"
+    ],
+    "optimize": "补全 evidence_used，并标注 source_type=用户上传/本地库。；帖文补齐非空壳 five_w，Says What 只留一个故事点。",
+    "draft_len": 1179,
+    "called_load": true
+  },
+  {
+    "id": "02_post_lacquer",
+    "theme": "福建漆器修复师与学徒补色",
+    "genre": "post",
+    "format": "thread",
+    "cq": 95.2,
+    "verdict": "PASS",
+    "S1": 5,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 25,
+    "plugin": 12,
+    "plugin_detail": {
+      "P1_5W": 2,
+      "P2_audience": 5,
+      "P3_channel": 5
+    },
+    "hits": [
+      "三年",
+      "破损屏风",
+      "半年补色",
+      "对比照片",
+      "木屑"
+    ],
+    "optimize": "帖文补齐非空壳 five_w，Says What 只留一个故事点。",
+    "draft_len": 2020,
+    "called_load": true
+  },
+  {
+    "id": "03_news_wetland",
+    "theme": "青海湿地巡护与红外相机",
+    "genre": "news",
+    "format": "news_article",
+    "cq": 88.8,
+    "verdict": "PASS",
+    "S1": 5,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 25,
+    "plugin": 14,
+    "plugin_detail": {
+      "N1_beats": 5,
+      "N2_lexicon": 4,
+      "N3_isolation": 5
+    },
+    "hits": [
+      "每周步行",
+      "红外相机",
+      "十余种",
+      "防水本"
+    ],
+    "optimize": "本条达标；下一轮加无资料对照题测 S6，或加干扰指令测硬约束。",
+    "draft_len": 2356,
+    "called_load": true
+  },
+  {
+    "id": "04_news_presskit",
+    "theme": "中非滴灌示范园出苗",
+    "genre": "news",
+    "format": "press_kit",
+    "cq": 89.6,
+    "verdict": "PASS",
+    "S1": 5,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 25,
+    "plugin": 14,
+    "plugin_detail": {
+      "N1_beats": 5,
+      "N2_lexicon": 4,
+      "N3_isolation": 5
+    },
+    "hits": [
+      "滴灌",
+      "翻译一起下田",
+      "出苗更整齐",
+      "双语说明牌"
+    ],
+    "optimize": "本条达标；下一轮加无资料对照题测 S6，或加干扰指令测硬约束。",
+    "draft_len": 4054,
+    "called_load": true
+  },
+  {
+    "id": "05_feature_garden",
+    "theme": "苏州园林修复保留太湖石",
+    "genre": "feature",
+    "format": "longform",
+    "cq": 95.2,
+    "verdict": "PASS",
+    "S1": 5,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 25,
+    "plugin": 0,
+    "plugin_detail": {
+      "note": "feature/script/faq 插件位预留，本题仅报共享层"
+    },
+    "hits": [
+      "太湖石",
+      "传统灰浆",
+      "原游线",
+      "旧编号漆迹"
+    ],
+    "optimize": "强化 one_liner 主心骨与可核验场景，禁止复述范文。",
+    "draft_len": 9298,
+    "called_load": true
+  },
+  {
+    "id": "06_feature_lab",
+    "theme": "合肥折叠屏样机临时胶带测试",
+    "genre": "feature",
+    "format": "longform",
+    "cq": 95.2,
+    "verdict": "PASS",
+    "S1": 5,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 25,
+    "plugin": 0,
+    "plugin_detail": {
+      "note": "feature/script/faq 插件位预留，本题仅报共享层"
+    },
+    "hits": [
+      "可折叠显示样机",
+      "胶带",
+      "柔性电路",
+      "导热垫碎片"
+    ],
+    "optimize": "强化 one_liner 主心骨与可核验场景，禁止复述范文。",
+    "draft_len": 11356,
+    "called_load": true
+  },
+  {
+    "id": "07_script_tea",
+    "theme": "茶席分享与热水声",
+    "genre": "script",
+    "format": "short_video",
+    "cq": 94.4,
+    "verdict": "PASS",
+    "S1": 5,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 25,
+    "plugin": 0,
+    "plugin_detail": {
+      "note": "feature/script/faq 插件位预留，本题仅报共享层"
+    },
+    "hits": [
+      "温杯",
+      "盖碗",
+      "轻响",
+      "两只杯",
+      "更淡、更干净"
+    ],
+    "optimize": "检查 Hook 0–3s、shots 行字段齐全、仅一个软 CTA。",
+    "draft_len": 1935,
+    "called_load": true
+  },
+  {
+    "id": "08_script_bashi",
+    "theme": "四川坝坝市夜摊与竹凳",
+    "genre": "script",
+    "format": "short_video",
+    "cq": 94.4,
+    "verdict": "PASS",
+    "S1": 5,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 25,
+    "plugin": 0,
+    "plugin_detail": {
+      "note": "feature/script/faq 插件位预留，本题仅报共享层"
+    },
+    "hits": [
+      "竹凳",
+      "悬挂的灯泡",
+      "串串",
+      "油烟"
+    ],
+    "optimize": "检查 Hook 0–3s、shots 行字段齐全、仅一个软 CTA。",
+    "draft_len": 1704,
+    "called_load": true
+  },
+  {
+    "id": "09_faq_food",
+    "theme": "中国食物常见误解澄清",
+    "genre": "faq",
+    "format": "faq_mythbust",
+    "cq": 81.4,
+    "verdict": "FAIL",
+    "S1": 1,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 21,
+    "plugin": 0,
+    "plugin_detail": {
+      "note": "feature/script/faq 插件位预留，本题仅报共享层"
+    },
+    "hits": [],
+    "optimize": "提高用户专有锚点写入密度，evidence_used 逐条引用素材原句。；确保每条 myth+fact 对立成立，禁止外网统计进 evidence。",
+    "draft_len": 3164,
+    "called_load": true
+  },
+  {
+    "id": "10_faq_travel",
+    "theme": "赴华旅行支付与交通误解",
+    "genre": "faq",
+    "format": "faq_mythbust",
+    "cq": 88.6,
+    "verdict": "PASS",
+    "S1": 3,
+    "S2": 5,
+    "S3": 5,
+    "S4": 5,
+    "S5": 5,
+    "shared": 23,
+    "plugin": 0,
+    "plugin_detail": {
+      "note": "feature/script/faq 插件位预留，本题仅报共享层"
+    },
+    "hits": [
+      "购票"
+    ],
+    "optimize": "提高用户专有锚点写入密度，evidence_used 逐条引用素材原句。；确保每条 myth+fact 对立成立，禁止外网统计进 evidence。",
+    "draft_len": 2461,
+    "called_load": true
+  }
+]

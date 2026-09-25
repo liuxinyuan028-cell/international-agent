@@ -1,0 +1,51 @@
+{
+  "id": "01_post_grape",
+  "theme": "宁夏葡萄园滴灌与嫁接笔记",
+  "genre": "post",
+  "format": "social_post",
+  "prompt": "按 china_storytelling，format=social_post，platform=instagram，country=America，语气 optimistic，英文。必须使用下方用户上传素材，不要补充素材没有的产量、人名和融资额。",
+  "material": "宁夏某葡萄产区曾是砾石荒地；合作社使用滴灌；一位种植户保留了失败嫁接记录本；参观者可摸到滴灌管外壁的冷凝水。",
+  "query_full": null,
+  "draft": "**knowledge_loaded: true**\n**format:** social_post (Tier-1)\n**platform:** instagram\n**country:** America\n**tone:** optimistic\n**结构适配判断:** 高度适配 A+B+C + D(蜕变) + E(个体)\n**一句话核心句（内部）:** 砾石荒地上，滴灌管线的冷凝水和一本写满失败的本子，记录着葡萄园如何从无到有。\n\n---\n\n**post:**\n\n> Touch the outside of a drip-irrigation pipe in this Ningxia vineyard — your fingers come away wet. Condensation. That small detail tells a bigger story.\n>\n> This land was once gravel wasteland. Nothing grew. Today, a local cooperative runs drip lines through the rows, and one grower keeps a notebook full of failed grafts — every attempt, every lesson, written down.\n>\n> No one started with answers. They started with soil, water, and willingness to fail on paper.\n>\n> Swipe to see what patience looks like in a vineyard. 🍇\n\n**hashtags:** [\"ChinaStories\", \"Ningxia\", \"VineyardLife\", \"DryLandFarming\", \"GrowFromFailure\"]\n\n---\n\n**evidence_used:**\n| 来源 | 内容 |\n|------|------|\n| 用户素材 | 宁夏某葡萄产区曾是砾石荒地 |\n| 用户素材 | 合作社使用滴灌 |\n| 用户素材 | 一位种植户保留了失败嫁接记录本 |\n| 用户素材 | 参观者可摸到滴灌管外壁的冷凝水 |\n\n**knowledge_loaded:** true\n**modules_used:** A(起点：砾石荒地) + B(行动：滴灌/记录本) + C(延伸：耐心与试错) + D(蜕变：荒地→葡萄园) + E(个体：种植户的本子)\n\n⚠️ **仅供人工审核草稿，不自动发布。** 未编造产量、人名、融资额；所有可核验细节均来自用户素材。",
+  "tools": [
+    "load_story_knowledge"
+  ],
+  "verdict": "PASS",
+  "scores": {
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 5,
+        "interest": 4,
+        "engage": 3,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 3,
+        "polite": 5
+      },
+      "score100": 93.0,
+      "pass": true,
+      "gate_fail": false
+    },
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 3,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 23,
+      "plugin_sum": 12,
+      "anchor_hits": [
+        "砾石荒地",
+        "滴灌",
+        "失败嫁接记录本",
+        "冷凝水"
+      ],
+      "pass": true
+    },
+    "optimize": "补全 evidence_used，并标注 source_type=用户上传/本地库。；帖文补齐非空壳 five_w，Says What 只留一个故事点。"
+  }
+}

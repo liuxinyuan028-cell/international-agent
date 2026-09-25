@@ -2,30 +2,97 @@ enabled: true
 auto_activate: true
 discover_files: false
 
-max_chars_per_skill: 1200
-max_active_skills: 1
-max_total_chars: 2000
+max_chars_per_skill: 6500
+max_active_skills: 2
+max_total_chars: 12000
 
 manual_activation:
   always_on: []
   disabled: []
 
 skills:
+  china_storytelling:
+    file: skills/entry/china-storytelling.md
+    title: 中国故事生成（体裁路由）
+    enabled: true
+    priority: 90
+    keywords:
+      - 中国故事
+      - 讲好中国故事
+      - 贴文
+      - 帖文
+      - 发帖
+      - 长帖
+      - thread
+      - 图文
+      - 轮播
+      - 短视频
+      - 口播
+      - 分镜
+      - 新闻稿
+      - 通稿
+      - 特稿
+      - 深度报道
+      - 报道
+      - 素材包
+      - press kit
+      - press_kit
+      - explainer
+      - 解释帖
+      - 金句
+      - 引语卡
+      - longform
+      - 深度稿
+      - headline
+      - 导语
+      - newsletter
+      - 简报
+      - youtube脚本
+      - 播客脚本
+      - FAQ
+      - 发言要点
+      - talking points
+      - 双语对照
+      - load_story_knowledge
+      - storytelling
+      - genre
+      - 5W
+
+  china_story_active:
+    file: skills/entry/china-story-active.md
+    title: 中国故事主动路由
+    enabled: true
+    priority: 85
+    keywords:
+      - 选题
+      - 账号运营
+      - ops_tips
+      - plan_china_story
+      - 主动发布
+
+  evidence_user_materials:
+    file: skills/shared/evidence-user-materials.md
+    title: 用户资料论据双源
+    enabled: true
+    priority: 80
+    keywords:
+      - 用户资料
+      - 上传资料
+      - user_materials
+      - 粘贴材料
+      - 双源
+      - source_type
+      - evidence-user
+
   intl_comm:
-    file: skills/intl-comm.md
+    file: skills/shared/intl-comm.md
+    title: 国际传播团队框架
     enabled: true
     priority: 100
     keywords:
-      - 回复
-      - 评论
+      - 讲好中国故事
       - 国际传播
-      - 主题
-      - 中国立场
-      - twitter
-      - 推特
-      - uyghur
-      - xinjiang
-      - 新疆
-      - 拟人
-      - ABSA
-      - 外交部
+      - 证据与风控
+      - 少抬杠
+      - evidence_used
+      - 人工审核

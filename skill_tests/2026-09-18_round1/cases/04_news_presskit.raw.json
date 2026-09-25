@@ -1,0 +1,51 @@
+{
+  "id": "04_news_presskit",
+  "theme": "中非滴灌示范园出苗",
+  "genre": "news",
+  "format": "press_kit",
+  "prompt": "按 china_storytelling，format=press_kit。输出短消息、标题组、要点；材料不够的块写 omitted_reason。不要编造增产百分比和吨数。英文。",
+  "material": "中非某农业合作示范园教当地农户使用滴灌；中方农技员与当地翻译一起下田；第一季作物出苗更整齐；示范田边竖着中非双语说明牌。",
+  "query_full": null,
+  "draft": "**knowledge_loaded: true**\n**format:** press_kit (Tier-1)\n**结构适配判断:** 高度适配 A+B+C + E(个体)\n**一句话核心句（内部）:** 中非示范园里，滴灌管线让第一季作物出苗更整齐，双语说明牌立在田边。\n\n---\n\n## press_kit · China-Africa Drip Irrigation Demo Plot\n\n### headline_pack\n\n**headline_main:**  \nSeedlings Rise in Neater Rows: A China-Africa Demo Plot Tests Drip Irrigation\n\n**headline_alt_1:**  \nFrom Field to Fieldside Sign — Drip Irrigation Takes Root in a China-Africa Demo Plot\n\n**headline_alt_2:**  \nFirst Season, Neater Rows: Chinese Agronomists and Local Translators Work Side by Side\n\n---\n\n### news_blurb\n\nAt the edge of a demonstration field in a China-Africa agricultural cooperation park, a bilingual sign — in Chinese and a local African language — marks the plot where drip irrigation is being tried for the first time.\n\nChinese agronomists have been going into the field together with local translators, showing farmers how to lay drip lines and schedule watering. The setup is simple: pipes with small emitters run along the rows, delivering water directly to the roots.\n\nNow, the first season's seedlings have come up. Compared with earlier planting methods, the rows look noticeably more even — a sign, the team says, that the water is reaching the plants more consistently.\n\nThe work is hands-on. Agronomists and translators walk the rows together, checking emitters, adjusting flow, answering questions from farmers who are learning the system. The bilingual sign at the field's edge lists basic instructions — a small but practical step toward making the technology accessible beyond the demo plot.\n\nFor the farmers involved, the visible difference in seedling uniformity is the first tangible result. What comes next — whether the method saves water, improves yields, or can be adapted to other crops — will depend on the rest of this season and the ones after.\n\n---\n\n### key_facts\n\n- China-Africa agricultural cooperation demo park teaching local farmers drip irrigation\n- Chinese agronomists working in the field together with local translators\n- First season's seedlings emerged in neater, more uniform rows\n- Bilingual (Chinese + local African language) instruction sign placed at the edge of the demo field\n\n---\n\n### visual_captions\n\n1. Chinese agronomist and local translator walking through a drip-irrigated demo plot, checking emitters along the rows.\n2. Close-up of seedlings emerging in even rows from drip lines.\n3. Bilingual instruction sign (Chinese and local African language) standing at the edge of the demonstration field.\n\n---\n\n### social_post ×2\n\n**variant_1 (scene hook):**  \nNeater rows this season at a China-Africa demo plot — drip irrigation is being tried, with agronomists and local translators working side by side in the field. A bilingual sign marks the edge of the plot. 🌱 #ChinaAfrica #AgriCooperation\n\n**variant_2 (result hook):**  \nFirst seedlings are up at a China-Africa agricultural demo park — and the rows look more even than before. Drip lines, hands-on training, and a bilingual sign at the field's edge. Small steps, visible results. #DripIrrigation #SouthSouthCooperation\n\n---\n\n### faq\n\n**q:** Is this just a showcase plot?  \n**a:** The demo field has a bilingual instruction sign so farmers can reference the basics on their own — the aim is to make the method usable beyond the park.\n\n**q:** What crop is being grown?  \n**a:** The source materials do not specify the crop type — only that first-season seedlings emerged in neater rows under drip irrigation.\n\n---\n\n### omitted_reason\n\n- **quote_card omitted** — no verbatim quote from agronomists, translators, or farmers in source materials.\n- **yield/water-saving data omitted** — no percentage, volume, or tonnage provided in source materials; cannot fabricate.\n- **specific country / crop name omitted** — not specified in source materials.\n\n---\n\n## evidence_used\n\n**用户上传素材（4 条）：**\n1. 中非某农业合作示范园教当地农户使用滴灌\n2. 中方农技员与当地翻译一起下田\n3. 第一季作物出苗更整齐\n4. 示范田边竖着中非双语说明牌\n\n**本地库：** 未调用（主题不在外交部论据库典型类别范围）\n\n---\n\n⚠️ **提醒：以上内容为人工审核草稿，不自动发布。**  \n所有可核验事实均来自用户上传素材，未编造增产百分比、吨数、作物种类、具体国名或人物姓名。缺料块已标注 `omitted_reason`。",
+  "tools": [
+    "load_story_knowledge"
+  ],
+  "verdict": "PASS",
+  "scores": {
+    "content_quality": {
+      "dims": {
+        "accuracy": 5,
+        "examples": 5,
+        "logic": 5,
+        "localize": 3,
+        "interest": 4,
+        "engage": 4,
+        "natural": 4,
+        "authority": 4,
+        "evidence_support": 5,
+        "polite": 5
+      },
+      "score100": 89.6,
+      "pass": true,
+      "gate_fail": false
+    },
+    "unified": {
+      "S1_coverage": 5,
+      "S2_boundary": 5,
+      "S3_hard_prompt": 5,
+      "S4_trace": 5,
+      "S5_genre_fit": 5,
+      "S6_ablation": null,
+      "shared_sum": 25,
+      "plugin_sum": 14,
+      "anchor_hits": [
+        "滴灌",
+        "翻译一起下田",
+        "出苗更整齐",
+        "双语说明牌"
+      ],
+      "pass": true
+    },
+    "optimize": "本条达标；下一轮加无资料对照题测 S6，或加干扰指令测硬约束。"
+  }
+}

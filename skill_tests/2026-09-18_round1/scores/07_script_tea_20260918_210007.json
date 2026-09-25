@@ -1,0 +1,58 @@
+{
+  "id": "07_script_tea",
+  "theme": "茶席分享与热水声",
+  "genre_expected": "script",
+  "genre_routed": "script",
+  "format": "short_video",
+  "prompt": "按 china_storytelling，format=short_video，约 35 秒英文口播分镜。须有 Hook 0-3 秒；不要编假精确钟点和销售额。",
+  "material": "朋友来访时主人温杯、注水、分茶；热水注入盖碗时有一声轻响；桌上只有一把壶和两只杯；客人说这茶比想象中更淡、更干净。",
+  "draft": "---\n\n## 短视频脚本 · short_video（Tier-1）\n\n**knowledge_loaded:** true  \n**format:** short_video  \n**genre:** script（体裁完善度：methods_in）  \n**结构适配判断:** 高度适配 A+B+C + E（个体）+ H（隐喻）  \n**一句话核心句（内部）:** 一壶两杯，热水入碗那一声轻响，和一杯比想象中更淡更干净的茶——分享不需要更多。\n\n---\n\n**title:** The sound between two cups  \n（标题：两杯之间的声音）\n\n**duration_sec:** 35\n\n**shots:**\n\n| t | shot | vo | on_screen | broll / sfx |\n|---|------|----|-----------|-------------|\n| 0-3 | CU: hot water hitting gaiwan | *(no VO — only the sound)* | LISTEN | **sfx:** light pour, ceramic resonance |\n| 3-10 | Wide: table with one pot, two cups | \"A friend dropped by. No ceremony, just one pot, two cups.\" | ONE POT. TWO CUPS. | **broll:** steam rising, quiet room |\n| 10-18 | Hands: warming cup → pouring → dividing tea | \"Warm the cup first. Then the water goes in. Then we share.\" | WARM · POUR · SHARE | **sfx:** gentle clink of cup on saucer |\n| 18-28 | Guest lifts cup, sips, pauses | \"They said: 'This is lighter than I expected. … Cleaner.'\" | LIGHTER. CLEANER. | **broll:** guest's hand setting cup down |\n| 28-35 | Host smiles, slight nod to camera | \"That's the whole thing. No performance — just tea, and the sound it makes.\" | YOUR TURN | **sfx:** fade out with ambient room tone |\n\n---\n\n**caption:**  \nOne pot. Two cups. The sound of hot water hitting the bowl — and a sip that turned out lighter, cleaner than expected. That's how we share tea.  \n（一壶。两杯。热水入碗的声音——和一口比想象中更淡、更干净的茶。我们就是这样分享茶。）\n\n**hashtags:**  \n`#ChinaStories` `#TeaTime` `#SlowMoments`\n\n---\n\n### evidence_used\n\n| 来源 | 内容 |\n|------|------|\n| **用户上传素材** | 朋友来访；主人温杯、注水、分茶；热水注入盖碗时有一声轻响；桌上一把壶、两只杯；客人说\"这茶比想象中更淡、更干净\" |\n| **本地论据库** | 未调用（生活场景类，非争议议题） |\n\n---\n\n### 自检清单\n- ✅ 已调用 `load_story_knowledge`（仅一次），gate=ready_to_generate\n- ✅ 已写一句话核心句，完成结构适配判断（高度适配 A+B+C+E+H）\n- ✅ 未虚构人名/茶种/地名/精确钟点/销售额；缺料已省略\n- ✅ 正文体现画面感构建（镜头语言）与抽象阶梯（具体动作→分享意义）\n- ✅ 开头具体（声音特写），无成就口号开篇\n- ✅ 输出字段符合 short_video 规范\n\n---\n\n> ⚠️ **本稿仅供人工审核，不自动发布。** 如需调整时长、增删分镜或补充视觉素材说明，请告知。",
+  "tools": [
+    "load_story_knowledge"
+  ],
+  "error": null,
+  "unified": {
+    "S1_coverage": 5,
+    "S2_boundary": 5,
+    "S3_hard_prompt": 5,
+    "S4_trace": 5,
+    "S5_genre_fit": 5,
+    "S6_ablation": null,
+    "shared_sum": 25,
+    "shared_max": 25,
+    "shared_pass": true,
+    "plugin": {
+      "note": "feature/script/faq 插件位预留，本题仅报共享层"
+    },
+    "plugin_sum": 0,
+    "plugin_pass": true,
+    "anchor_hits": [
+      "温杯",
+      "盖碗",
+      "轻响",
+      "两只杯",
+      "更淡、更干净"
+    ],
+    "total45": 25,
+    "pass": true
+  },
+  "content_quality": {
+    "dims": {
+      "accuracy": 5,
+      "examples": 5,
+      "logic": 5,
+      "localize": 5,
+      "interest": 4,
+      "engage": 3,
+      "natural": 4,
+      "authority": 4,
+      "evidence_support": 5,
+      "polite": 5
+    },
+    "score100": 94.4,
+    "pass": true,
+    "gate_fail": false
+  },
+  "optimize": "检查 Hook 0–3s、shots 行字段齐全、仅一个软 CTA。",
+  "verdict": "PASS"
+}
